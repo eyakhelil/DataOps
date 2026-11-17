@@ -1,0 +1,48 @@
+﻿# Environnements virtuels Python
+.venv/
+.venv*
+venv/
+env/
+ENV/
+
+# Bytecode Python & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Données volumineuses & bases DuckDB
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp
+data/*.xlsx
+data/online_retail_ii.csv
+data/*.duckdb*
+
+# Variables d'environnement & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# dbt
+target/
+dbt_packages/
+logs/
+*.log
+
+# Prefect
+.prefect/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+data/*.xlsx
+data/online_retail_ii.csv
